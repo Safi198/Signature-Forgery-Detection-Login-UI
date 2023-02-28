@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:get/get_core/src/get_main.dart';
+import 'package:signature_forgery_detection/src/features/core/screens/profile/profile_screen.dart';
 
 import '../../../../constants/colors.dart';
 import '../../../../constants/images_string.dart';
@@ -34,7 +37,9 @@ class DashBoardAppBar extends StatelessWidget implements PreferredSizeWidget {
             color: tCardBgColor,
           ),
           child: IconButton(
-            onPressed: () {},
+            onPressed: () {
+              Get.to(()=>ProfileScreen());
+            },
             icon: Image.asset(
               tUserProfileIcon,
               width: 80,

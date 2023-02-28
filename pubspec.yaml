@@ -40,6 +40,12 @@ dependencies:
   liquid_swipe: ^3.0.0
   smooth_page_indicator: ^1.0.0+2
   flutter_otp_text_field: ^1.1.1
+  firebase_core: ^2.5.0
+  firebase_auth: ^4.2.6
+  get: ^4.6.5
+  line_awesome_flutter: ^2.0.0
+  cloud_firestore: ^4.4.3
+  google_sign_in: ^6.0.1
 
 dev_dependencies:
   flutter_test:
@@ -73,6 +79,7 @@ flutter:
     - assets/logo/
     - assets/images/forgot_image/
     - assets/images/dashboard/
+    - assets/images/profile_image/
 
   fonts:
     - family: Sassy Frass

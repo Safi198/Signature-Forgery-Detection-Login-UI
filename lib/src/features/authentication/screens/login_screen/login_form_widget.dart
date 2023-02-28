@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:get/get_core/src/get_main.dart';
 import 'package:signature_forgery_detection/src/features/authentication/screens/forgot_password_screen/forgot_password_options/forgot_password_model_bottom_sheet.dart';
 import 'package:signature_forgery_detection/src/features/core/screens/dashboard/dashboard.dart';
 
@@ -79,12 +81,7 @@ class LoginForm extends StatelessWidget {
                   ),
                 ),
                 onPressed: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                      builder: (context) => DashBoard(),
-                    ),
-                  );
+                  Get.to(()=>DashBoard());
                 },
                 child: Text(
                   tLogin.toUpperCase(),

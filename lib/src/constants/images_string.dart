@@ -24,3 +24,6 @@ const String tForgotPasswordImage = "assets/images/forgot_image/forgot.png";
 
 //Dashboard
 const String tUserProfileIcon = "assets/images/dashboard/Uprofile.png";
+
+//Profile Pic
+const String tUserProfilePic = "assets/images/profile_image/profile.jpeg";

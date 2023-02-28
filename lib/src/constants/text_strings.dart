@@ -63,3 +63,30 @@ const String tOTPMessage = ("Enter the verification code sent at ");
 //Generic Texts
 const String tLogin = 'Login';
 const String tSignup = 'Signup';
+
+//Profle Screen
+
+const String tProfile='Profile';
+const String tEditProfile='Edit Profile';
+const String tLogoutDialogHeading='Logout';
+const String tProfileHeading='Shaheer Alam';
+const String tProfileSubHeading='support@cuiatd.edu.pk';
+
+//Menu
+const String tMenu4 = tLogoutDialogHeading;
+const String tMenu1='Settings';
+const String tMenu2='User Management';
+const String tMenu3='Information';
+
+
+//Update Profile Screen
+
+const String tDelete = "Delete";
+const String tJoined="Joined";
+const String tJoinedAt='22 February 2023';
+
+
+//Upload Profile Screen
+
+const String tUploadPic = "Upload Picture";
+const String tSkip= "Skip";

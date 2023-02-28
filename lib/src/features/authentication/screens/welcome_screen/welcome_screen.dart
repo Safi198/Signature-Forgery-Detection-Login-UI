@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:get/get_core/src/get_main.dart';
 import 'package:signature_forgery_detection/src/constants/colors.dart';
 import 'package:signature_forgery_detection/src/constants/images_string.dart';
 import 'package:signature_forgery_detection/src/constants/sizes.dart';
@@ -54,12 +56,7 @@ class WelcomeScreen extends StatelessWidget {
                         side: BorderSide(color: tSecondaryColor),
                         padding: EdgeInsets.symmetric(vertical: tButtonHeight)),
                     onPressed: () {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                          builder: (context) => LoginScreen(),
-                        ),
-                      );
+                      Get.to(()=>LoginScreen());
                     },
                     child: Text(
                       tLogin.toUpperCase(),
@@ -83,12 +80,7 @@ class WelcomeScreen extends StatelessWidget {
                         padding: MaterialStateProperty.all(
                             EdgeInsets.symmetric(vertical: tButtonHeight))),
                     onPressed: () {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                          builder: (context) => SignUpScreen(),
-                        ),
-                      );
+                      Get.to(()=>SignUpScreen());
                     },
                     child: Text(tSignup.toUpperCase()),
                   ),

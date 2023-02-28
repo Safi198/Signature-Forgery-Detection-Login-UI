@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:get/get_core/src/get_main.dart';
+import 'package:signature_forgery_detection/src/features/core/screens/upload_pic_screen/upload_pic_screen.dart';
 
 import '../../../../constants/colors.dart';
 import '../../../../constants/sizes.dart';
@@ -91,7 +94,9 @@ class SignUpFormWidget extends StatelessWidget {
                     EdgeInsets.symmetric(vertical: tButtonHeight),
                   ),
                 ),
-                onPressed: () {},
+                onPressed: () {
+                  Get.to(()=>UploadPicScreen());
+                },
                 child: Text(
                   tSignup.toUpperCase(),
                 ),
